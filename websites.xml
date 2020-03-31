@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * @author JuanJakobo
+ * @version 0.05
+ 
+ Website ->
+  * PageTitle = A name, that should be also be in the tabtitle of the page
+  * URL = the URL of the website that shall be displayed
+  * URLType = webseal (local page) / empty 
+  * Zoomlevel = Level of zoom for the website
+  * ErrorURL = URL that will be shown in case that the HTML Document Title contains "error" (for example ITLS webseal error)
+  * ErrorURLType = webseal (local page) / empty 
+  * ZoomLevelErrorURL = Level of zoom for the error website
+  -->
+<Websites>
+  <Website>
+    <PageTitle>google</PageTitle>
+    <URL>http://www.google.de</URL>
+    <URLtype>web</URLtype>
+    <Zoomlevel>150</Zoomlevel>
+    <ErrorURL>error.html</ErrorURL>
+    <ErrorURLType>local</ErrorURLType>
+    <ZoomLevelErrorURL>160</ZoomLevelErrorURL>
+  </Website>
+  <Website>
+    <PageTitle>local</PageTitle>
+    <URL>error.html</URL>
+    <URLtype>webseal</URLtype>
+    <Zoomlevel>100</Zoomlevel>
+    <ErrorURL>http://www.google.de</ErrorURL>
+    <ErrorURLType>web</ErrorURLType>
+    <ZoomLevelErrorURL>200</ZoomLevelErrorURL>
+  </Website>
+</Websites>
