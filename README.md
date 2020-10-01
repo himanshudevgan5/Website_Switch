@@ -1,3 +1,3 @@
 # Website Switch
 
-A C# program which can display local htmls or urls. It can for example be used to show progress websites in assembly.
+Welcome to the C# Best Practices and Style Guides. We provide you some C# standards and tools that we use in our projects.
